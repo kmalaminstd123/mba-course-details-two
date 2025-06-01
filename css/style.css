@@ -865,7 +865,7 @@ li {
 .goal-item {
     position: relative;
     padding: 20px 10px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 15px;
     border-left: 4px solid var(--primary-blue);
     background: #fff;
     transition: all 0.3s ease;
@@ -882,14 +882,15 @@ li {
     left: -15px;
     background: var(--primary-blue);
     color: #fff;
-    width: 40px;
-    height: 40px;
+    --circle-size: 35px;
+    width: var(--circle-size);
+    height: var(--circle-size);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 12px;
 }
 
 .goal-item h3 {
